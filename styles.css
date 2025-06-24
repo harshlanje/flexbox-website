@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    background-color: #1f2937;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    padding: 0 100px;
+}
+
+.header .logo {
+    font-size:  24px;
+    color: #f9faf8;
+}
+
+li a {
+    font-size: 16px;
+    color: #e5e7eb;
+   padding: 20px 0px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1f2937;
+    padding: 50px 100px 100px;
+    gap: 50px; 
+}
+
+.hero-text {
+    align-self: center;
+}
+
+.main-text {
+    font-size: 48px;
+    margin: 0;
+    padding: 0;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.second-text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.hero button {
+    padding: 5px 20px;
+    color: white;
+    background-color: #3882f6;
+    border-radius: 8px;
+    border-style: none;
+}
+
+.image-block {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 100px 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-block > .title {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    margin-bottom: 0;
+}
+
+.small-image {
+    display: flex;
+    gap: 30px;
+}
+
+.facts {
+    width: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.facts p {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.additional {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 100px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    font-weight: lighter;
+}
+
+.author {
+    font-weight: bold;
+    margin-left: auto;
+}
+
+

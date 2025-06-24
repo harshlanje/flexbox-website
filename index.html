@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Webpage</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div>
+    <div class="container">
         <div class="header">
             <a class="logo" href="#">Logo</a>
-            <ul>
+            <ul class="header-link">
                 <li><a href="#">Github</a></li>
                 <li><a href="#">About Me</a></li>
                 <li><a href="#">Contact</a></li>
@@ -18,30 +19,34 @@
 
         <div class="hero">
             <div class="hero-text">
-                <h1>This website is Awesome</h1>
-                <p>This website is made by Harsh Lanje.
+                <p class="main-text">This website is Awesome<p>
+                <p class="second-text">This website is made by Harsh Lanje.
                     He is learning Full Stack Development.
                 </p>
                 <button class="button">Meow</button>
             </div>
-            <img src="./images/cat.jpg" alt="cat" width="400px">
+            <img src="./images/cat.jpg" alt="cat" width="350px">
         </div>
 
         <div class="image-block">
-            <h2>Some Random information</h2>
-            <div>
-                <div class="small-image">
-                    <img src="./images/smallcat.jpg" alt="" width="130">
-                    <img src="./images/smallcat2.jpg" alt="" width="130">
-                    <img src="./images/smallcat3.jpg" alt="" width="130">
-                    <img src="./images/smallcat4.jpg" alt="" width="130">
+            <p class="title">Some Random information<p>
+            <div class="small-image">
+                <div class="facts">
+                        <img src="./images/smallcat.jpg" alt="" width="130">
+                        <p>Cats can jump up to six times their length.</p>
                 </div>
-                <div class="small-text">
-                    <p>Cat fact</p>
-                    <p>Cat fact</p>
-                    <p>Cat fact</p>
-                    <p>Cat fact</p>
+                <div class="facts">
+                        <img src="./images/smallcat2.jpg" alt="" width="130">
+                        <p>Cats have a unique “vocabulary” with their owner</p>
                 </div>
+                <div class="facts">
+                        <img src="./images/smallcat3.jpg" alt="" width="130">
+                        <p>cats typically sleep for 12 to 16 hours a day.</p>
+                </div>
+                <div class="facts">
+                        <img src="./images/smallcat4.jpg" alt="" width="130">
+                        <p>Cats often attack your ankles when they’re bored.</p>
+                </div>     
             </div>
         </div>
 
@@ -51,7 +56,7 @@
                 meow Meow Meow!
             </p>
             <p class="author">
-                -Some cat one the Street
+                - some cat on the street
             </p>
         </div>
 
